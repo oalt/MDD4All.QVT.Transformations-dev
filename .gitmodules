@@ -1,0 +1,9 @@
+[submodule "src/MDD4All.QVT.TransformationStarter.Views"]
+	path = src/MDD4All.QVT.TransformationStarter.Views
+	url = https://github.com/oalt/MDD4All.QVT.TransformationStarter.Views.git
+[submodule "src/MDD4All.QVT.TransformationStarter.ViewModels"]
+	path = src/MDD4All.QVT.TransformationStarter.ViewModels
+	url = https://github.com/oalt/MDD4All.QVT.TransformationStarter.ViewModels.git
+[submodule "src/LL.MDE.Components.Qvt.Common"]
+	path = src/LL.MDE.Components.Qvt.Common
+	url = https://github.com/oalt/LL.MDE.Components.Qvt.Common.git
