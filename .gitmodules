@@ -7,3 +7,6 @@
 [submodule "src/LL.MDE.Components.Qvt.Common"]
 	path = src/LL.MDE.Components.Qvt.Common
 	url = https://github.com/oalt/LL.MDE.Components.Qvt.Common.git
+[submodule "src/MDD4All.QVT.MetamodelExtensions"]
+	path = src/MDD4All.QVT.MetamodelExtensions
+	url = https://github.com/oalt/MDD4All.QVT.MetamodelExtensions.git
