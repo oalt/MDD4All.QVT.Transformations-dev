@@ -10,3 +10,27 @@
 [submodule "src/MDD4All.QVT.MetamodelExtensions"]
 	path = src/MDD4All.QVT.MetamodelExtensions
 	url = https://github.com/oalt/MDD4All.QVT.MetamodelExtensions.git
+[submodule "src/MDD4All.UI.BlazorComponents"]
+	path = src/MDD4All.UI.BlazorComponents
+	url = https://github.com/oalt/MDD4All.UI.BlazorComponents.git
+[submodule "src/MDD4All.UI.DataModels"]
+	path = src/MDD4All.UI.DataModels
+	url = https://github.com/oalt/MDD4All.UI.DataModels.git
+[submodule "src/MDD4All.EnterpriseArchitect.ModelTree"]
+	path = src/MDD4All.EnterpriseArchitect.ModelTree
+	url = https://github.com/oalt/MDD4All.EnterpriseArchitect.ModelTree.git
+[submodule "src/MDD4All.EnterpriseArchitect.Manipulations"]
+	path = src/MDD4All.EnterpriseArchitect.Manipulations
+	url = https://github.com/oalt/MDD4All.EnterpriseArchitect.Manipulations.git
+[submodule "src/MDD4All.EAFacade.DataModels.Contracts"]
+	path = src/MDD4All.EAFacade.DataModels.Contracts
+	url = https://github.com/oalt/MDD4All.EAFacade.DataModels.Contracts.git
+[submodule "src/MDD4All.FileAccess.Contracts"]
+	path = src/MDD4All.FileAccess.Contracts
+	url = https://github.com/oalt/MDD4All.FileAccess.Contracts.git
+[submodule "src/MDD4All.FileAccess.WPF"]
+	path = src/MDD4All.FileAccess.WPF
+	url = https://github.com/oalt/MDD4All.FileAccess.WPF.git
+[submodule "src/MDD4All.QVT.TransformationStarter.WpfBlazor"]
+	path = src/MDD4All.QVT.TransformationStarter.WpfBlazor
+	url = https://github.com/oalt/MDD4All.QVT.TransformationStarter.WpfBlazor.git
