@@ -40,6 +40,3 @@
 [submodule "src/MDD4All.UI.BlazorComponents.EnterpriseArchitect"]
 	path = src/MDD4All.UI.BlazorComponents.EnterpriseArchitect
 	url = https://github.com/oalt/MDD4All.UI.BlazorComponents.EnterpriseArchitect.git
-[submodule "src/MDD4All.QVT.DataAccess.EnterpriseArchitect"]
-	path = src/MDD4All.QVT.DataAccess.EnterpriseArchitect
-	url = https://github.com/oalt/MDD4All.QVT.DataAccess.EnterpriseArchitect.git
