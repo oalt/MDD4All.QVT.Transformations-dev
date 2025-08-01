@@ -34,3 +34,12 @@
 [submodule "src/MDD4All.QVT.TransformationStarter.WpfBlazor"]
 	path = src/MDD4All.QVT.TransformationStarter.WpfBlazor
 	url = https://github.com/oalt/MDD4All.QVT.TransformationStarter.WpfBlazor.git
+[submodule "src/MDD4All.EAFacade.DataAccess.Cached"]
+	path = src/MDD4All.EAFacade.DataAccess.Cached
+	url = https://github.com/oalt/MDD4All.EAFacade.DataAccess.Cached.git
+[submodule "src/MDD4All.UI.BlazorComponents.EnterpriseArchitect"]
+	path = src/MDD4All.UI.BlazorComponents.EnterpriseArchitect
+	url = https://github.com/oalt/MDD4All.UI.BlazorComponents.EnterpriseArchitect.git
+[submodule "src/MDD4All.QVT.DataAccess.EnterpriseArchitect"]
+	path = src/MDD4All.QVT.DataAccess.EnterpriseArchitect
+	url = https://github.com/oalt/MDD4All.QVT.DataAccess.EnterpriseArchitect.git
