@@ -40,3 +40,6 @@
 [submodule "src/MDD4All.UI.BlazorComponents.EnterpriseArchitect"]
 	path = src/MDD4All.UI.BlazorComponents.EnterpriseArchitect
 	url = https://github.com/oalt/MDD4All.UI.BlazorComponents.EnterpriseArchitect.git
+[submodule "src/MDD4All.EMOF.DataModels"]
+	path = src/MDD4All.EMOF.DataModels
+	url = https://github.com/oalt/MDD4All.EMOF.DataModels.git
