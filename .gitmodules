@@ -54,3 +54,6 @@
 [submodule "src/MDD4All.DataModeling.Attributes"]
 	path = src/MDD4All.DataModeling.Attributes
 	url = https://github.com/oalt/MDD4All.DataModeling.Attributes.git
+[submodule "src/MDD4All.EnterpriseArchitect.ModelGeneration"]
+	path = src/MDD4All.EnterpriseArchitect.ModelGeneration
+	url = https://github.com/oalt/MDD4All.EnterpriseArchitect.ModelGeneration.git
