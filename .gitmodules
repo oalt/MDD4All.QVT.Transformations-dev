@@ -43,3 +43,14 @@
 [submodule "src/MDD4All.EMOF.DataModels"]
 	path = src/MDD4All.EMOF.DataModels
 	url = https://github.com/oalt/MDD4All.EMOF.DataModels.git
+[submodule "src/MDD4All.EMOF.DataAccess"]
+	path = src/MDD4All.EMOF.DataAccess
+	url = https://github.com/oalt/MDD4All.EMOF.DataAccess.git
+	branch = dev
+[submodule "src/MDD4All.EMOF.DotNetToEmofConverter"]
+	path = src/MDD4All.EMOF.DotNetToEmofConverter
+	url = https://github.com/oalt/MDD4All.EMOF.DotNetToEmofConverter.git
+	branch = dev
+[submodule "src/MDD4All.DataModeling.Attributes"]
+	path = src/MDD4All.DataModeling.Attributes
+	url = https://github.com/oalt/MDD4All.DataModeling.Attributes.git
