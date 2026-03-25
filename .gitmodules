@@ -61,3 +61,7 @@
 	path = src/MDD4All.EMOF.Apps.EaPlugin
 	url = https://github.com/oalt/MDD4All.EMOF.Apps.EaPlugin.git
 	branch = dev
+[submodule "src/MDD4All.QVT.DataAccess.Default"]
+	path = src/MDD4All.QVT.DataAccess.Default
+	url = https://github.com/oalt/MDD4All.QVT.DataAccess.Default.git
+	branch = dev
