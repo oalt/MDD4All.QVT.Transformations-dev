@@ -65,3 +65,7 @@
 	path = src/MDD4All.QVT.DataAccess.Default
 	url = https://github.com/oalt/MDD4All.QVT.DataAccess.Default.git
 	branch = dev
+[submodule "src/MDD4All.QVT.DataAccess.CycloneDX"]
+	path = src/MDD4All.QVT.DataAccess.CycloneDX
+	url = https://github.com/oalt/MDD4All.QVT.DataAccess.CycloneDX.git
+	branch = dev
