@@ -15,7 +15,7 @@ namespace MDD4All.QVT.Transformations.Apps.EmofConverter
             Type? rootElementType = null;
 
             // initialize the root element type e.g. with rootElementType = typeof(PersonRepository);
-            // PUT YOUR CODE HERE
+            // PUT YOUR CODE HERE resp. set your type here
             rootElementType = typeof(EmofRepository);
 
             if (rootElementType != null)
