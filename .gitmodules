@@ -69,3 +69,7 @@
 	path = src/MDD4All.QVT.DataAccess.CycloneDX
 	url = https://github.com/oalt/MDD4All.QVT.DataAccess.CycloneDX.git
 	branch = dev
+[submodule "src/MDD4All.Person.DataModels"]
+	path = src/MDD4All.Person.DataModels
+	url = https://github.com/oalt/MDD4All.Person.DataModels.git
+	branch = dev
