@@ -73,3 +73,7 @@
 	path = src/MDD4All.Person.DataModels
 	url = https://github.com/oalt/MDD4All.Person.DataModels.git
 	branch = dev
+[submodule "src/MDD4All.Notes.DataModels"]
+	path = src/MDD4All.Notes.DataModels
+	url = https://github.com/oalt/MDD4All.Notes.DataModels.git
+	branch = dev
