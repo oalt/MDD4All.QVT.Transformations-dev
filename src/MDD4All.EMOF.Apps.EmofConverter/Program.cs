@@ -1,16 +1,15 @@
 ﻿using MDD4All.EMOF.DataModels;
-using MDD4All.EMOF.DotNetToEmofConverter;
 using Newtonsoft.Json;
 using System;
 using System.IO;
 
-namespace MDD4All.QVT.Transformations.Apps.EmofConverter
+namespace MDD4All.EMOF.Apps.EmofConverter
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            DotNetToEmofConverter dotNetToEmofConverter = new DotNetToEmofConverter();
+            DotNetToEmofConverter.DotNetToEmofConverter dotNetToEmofConverter = new DotNetToEmofConverter.DotNetToEmofConverter();
 
             Type? rootElementType = null;
 
