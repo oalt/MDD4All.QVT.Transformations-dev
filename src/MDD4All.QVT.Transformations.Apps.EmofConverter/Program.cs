@@ -16,6 +16,10 @@ namespace MDD4All.QVT.Transformations.Apps.EmofConverter
 
             // initialize the root element type e.g. with rootElementType = typeof(PersonRepository);
             // PUT YOUR CODE HERE resp. set your type here
+            // here are some examples how to configure it:
+
+            //rootElementType = typeof(Notes.DataModels.Notes);
+            //rootElementType = typeof(Person.DataModels.Repository);
             rootElementType = typeof(EmofRepository);
 
             if (rootElementType != null)
