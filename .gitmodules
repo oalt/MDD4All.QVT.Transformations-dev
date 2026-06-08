@@ -80,3 +80,7 @@
 [submodule "src/MDD4All.Requirements.DataModels"]
 	path = src/MDD4All.Requirements.DataModels
 	url = https://github.com/oalt/MDD4All.Requirements.DataModels.git
+[submodule "src/MDD4All.QVT.EaAccess"]
+	path = src/MDD4All.QVT.EaAccess
+	url = https://github.com/oalt/MDD4All.QVT.EaAccess.git
+	branch = dev
