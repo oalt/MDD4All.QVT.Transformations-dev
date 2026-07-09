@@ -47,6 +47,7 @@ jobs:
         run: echo $env:VERSION
 
       - name: Update Assembly info versions
+        if: false
         uses: Amadevus/pwsh-script@v2
         id: script
         with:
