@@ -32,6 +32,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDD4All.Person.DataModels-d
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDD4All.EMOF.Apps.EmofConverter-dev", "MDD4All.EMOF.Apps.EmofConverter\MDD4All.EMOF.Apps.EmofConverter-dev.csproj", "{FB2B3AC9-4A58-A649-1894-4E48DC671703}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Projektmappenelemente", "{84D27F74-D2BA-6C25-2661-968F101900D9}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\EMOF-plugin-build.yml = ..\.github\workflows\EMOF-plugin-build.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
