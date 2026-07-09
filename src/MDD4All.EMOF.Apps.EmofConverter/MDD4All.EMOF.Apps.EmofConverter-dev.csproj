@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MDD4All.EMOF.DotNetToEmofConverter\src\MDD4All.EMOF.DotNetToEmofConverter\MDD4All.EMOF.DotNetToEmofConverter-dev.csproj" />
+    <ProjectReference Include="..\MDD4All.Notes.DataModels\src\MDD4All.Notes.DataModels\MDD4All.Notes.DataModels-dev.csproj" />
+    <ProjectReference Include="..\MDD4All.Person.DataModels\src\MDD4All.Person.DataModels\MDD4All.Person.DataModels-dev.csproj" />
+  </ItemGroup>
+
+</Project>

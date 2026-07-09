@@ -417,3 +417,4 @@ FodyWeavers.xsd
 *.msm
 *.msp
 src/MDD4All.QVT.Transformations.*
+/src/MDD4All.EMOF.Apps.EmofConverter/*.emof.json

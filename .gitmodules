@@ -40,3 +40,47 @@
 [submodule "src/MDD4All.UI.BlazorComponents.EnterpriseArchitect"]
 	path = src/MDD4All.UI.BlazorComponents.EnterpriseArchitect
 	url = https://github.com/oalt/MDD4All.UI.BlazorComponents.EnterpriseArchitect.git
+[submodule "src/MDD4All.EMOF.DataModels"]
+	path = src/MDD4All.EMOF.DataModels
+	url = https://github.com/oalt/MDD4All.EMOF.DataModels.git
+[submodule "src/MDD4All.EMOF.DataAccess"]
+	path = src/MDD4All.EMOF.DataAccess
+	url = https://github.com/oalt/MDD4All.EMOF.DataAccess.git
+	branch = dev
+[submodule "src/MDD4All.EMOF.DotNetToEmofConverter"]
+	path = src/MDD4All.EMOF.DotNetToEmofConverter
+	url = https://github.com/oalt/MDD4All.EMOF.DotNetToEmofConverter.git
+	branch = dev
+[submodule "src/MDD4All.DataModeling.Attributes"]
+	path = src/MDD4All.DataModeling.Attributes
+	url = https://github.com/oalt/MDD4All.DataModeling.Attributes.git
+[submodule "src/MDD4All.EnterpriseArchitect.ModelGeneration"]
+	path = src/MDD4All.EnterpriseArchitect.ModelGeneration
+	url = https://github.com/oalt/MDD4All.EnterpriseArchitect.ModelGeneration.git
+[submodule "src/MDD4All.EMOF.Apps.EaPlugin"]
+	path = src/MDD4All.EMOF.Apps.EaPlugin
+	url = https://github.com/oalt/MDD4All.EMOF.Apps.EaPlugin.git
+	branch = dev
+[submodule "src/MDD4All.QVT.DataAccess.Default"]
+	path = src/MDD4All.QVT.DataAccess.Default
+	url = https://github.com/oalt/MDD4All.QVT.DataAccess.Default.git
+	branch = dev
+[submodule "src/MDD4All.QVT.DataAccess.CycloneDX"]
+	path = src/MDD4All.QVT.DataAccess.CycloneDX
+	url = https://github.com/oalt/MDD4All.QVT.DataAccess.CycloneDX.git
+	branch = dev
+[submodule "src/MDD4All.Person.DataModels"]
+	path = src/MDD4All.Person.DataModels
+	url = https://github.com/oalt/MDD4All.Person.DataModels.git
+	branch = dev
+[submodule "src/MDD4All.Notes.DataModels"]
+	path = src/MDD4All.Notes.DataModels
+	url = https://github.com/oalt/MDD4All.Notes.DataModels.git
+	branch = dev
+[submodule "src/MDD4All.Requirements.DataModels"]
+	path = src/MDD4All.Requirements.DataModels
+	url = https://github.com/oalt/MDD4All.Requirements.DataModels.git
+[submodule "src/MDD4All.QVT.EaAccess"]
+	path = src/MDD4All.QVT.EaAccess
+	url = https://github.com/oalt/MDD4All.QVT.EaAccess.git
+	branch = dev

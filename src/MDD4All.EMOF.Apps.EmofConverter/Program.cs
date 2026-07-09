@@ -1,0 +1,49 @@
+﻿using MDD4All.EMOF.DataModels;
+using Newtonsoft.Json;
+using System;
+using System.IO;
+
+namespace MDD4All.EMOF.Apps.EmofConverter
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            DotNetToEmofConverter.DotNetToEmofConverter dotNetToEmofConverter = new DotNetToEmofConverter.DotNetToEmofConverter();
+
+            Type? rootElementType = null;
+
+            // initialize the root element type e.g. with rootElementType = typeof(PersonRepository);
+            // PUT YOUR CODE HERE resp. set your type here
+            // here are some examples how to configure it:
+
+            //rootElementType = typeof(Notes.DataModels.Notes);
+            //rootElementType = typeof(Person.DataModels.Repository);
+            rootElementType = typeof(EmofRepository);
+
+            if (rootElementType != null)
+            {
+
+                EmofRepository emofRepository = dotNetToEmofConverter.ConvertToEMOF(rootElementType);
+
+                JsonSerializerSettings serializerSettings = new JsonSerializerSettings();
+
+                string json = JsonConvert.SerializeObject(emofRepository,
+                                                          Formatting.Indented,
+                                                          new JsonSerializerSettings()
+                                                          {
+                                                              NullValueHandling = NullValueHandling.Ignore,
+                                                              TypeNameHandling = TypeNameHandling.Auto
+                                                          });
+
+                string? filename = rootElementType.FullName;
+
+                File.WriteAllText("..\\..\\..\\" + filename + ".emof.json", json);
+            }
+            else
+            {
+                Console.WriteLine("Unable to create EMOF. No type given. Please specify your type to convert in the code!");
+            }
+        }
+    }
+}
