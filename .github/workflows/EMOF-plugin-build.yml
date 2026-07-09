@@ -34,7 +34,9 @@ jobs:
         id: date-version
         with:
             script: |
-                ([datetime]::now).tostring("yyyy.M.d")
+                $now = Get-Date
+                $versionString = "{0}.{1}" -f $now.Year, $now.DayOfYear
+                $versionString
 
       - name: Set version variable from date and build number
         env: 
