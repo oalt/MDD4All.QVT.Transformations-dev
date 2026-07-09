@@ -79,7 +79,10 @@ jobs:
         run: msbuild.exe /p:configuration=Release /p:platform='Any CPU' .\src\${{env.SOLUTION_NAME}}
 
       - name: Change to setup project directory
-        run: cd src\MDD4All.EMOF.Apps.EaPlugin\src\Setup\
+        shell: pwsh
+        run: |
+            cd src\MDD4All.EMOF.Apps.EaPlugin\src\Setup\
+            pwd
 
       - name: Create MSI installer file
         run: dotnet build -p:ProductVersion=${{env.VERSION}} -c Release
